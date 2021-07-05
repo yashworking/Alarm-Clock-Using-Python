@@ -1,7 +1,7 @@
 
 #               Alarm Clock               #
 
-
+#importing all important libraries or modules
 from datetime import datetime as dt
 from playsound import playsound
 import time
@@ -57,7 +57,7 @@ def main():
                         playsound('Enter the path where you saved the sound track')
                         break
                           
-
+#calling the main class using name  as main
 
 if __name__ == "__main__":
   
